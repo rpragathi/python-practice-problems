@@ -1,4 +1,4 @@
-def is_palindrome_optimized(n):
+def is_palindrome(n):
     """
     Checks palindrome by reversing half the number.
 
