@@ -1,4 +1,16 @@
 def is_prime(n):
+
+     """
+    Checks whether a number is prime
+
+    Time Complexity: O(√n)
+    Space Complexity: O(1)
+
+    Explanation:
+    - Only checks divisibility up to square root of n
+    - Skips even numbers 
+    
+    """
     if n <= 1:
         return False
     
@@ -14,3 +26,4 @@ def is_prime(n):
             return False
         i += 2  
     return True
+
