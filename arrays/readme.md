@@ -49,6 +49,3 @@ This is technically a list, not a strict array:
 	• Can store different data types
 But conceptually, it behaves like an array.
 
-
-🎯 Interview Definition
-	An array is a data structure that stores elements of the same type in contiguous memory locations and allows constant-time access using indices.
